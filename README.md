@@ -1,27 +1,27 @@
 # Getting Started
 
 ### Vocab
-**FRC** - FIRST Robotics Competition, the one we participate in
-**WPILib** - Main library used for developing FRC bots
-**RoboRIO** - The "computer" or controller we connect motors to that executes our robot code
-**Falon 500** - The motors that we use. They have a built in Talon SRX motor controller which communicates over CAN. 
-**CAN Bus** - The protocol used to transmit data throughout the robot. It uses 2 wires.
-**NEO** - Another motor that we use. Weaker than the Falons. You need to use them with a motor controller like the **REV SparkMAX**
-**NEO 550** - A significantly sized down version of the NEO, good for smaller applications
+**FRC** - FIRST Robotics Competition, the one we participate in  
+**WPILib** - Main library used for developing FRC bots  
+**RoboRIO** - The "computer" or controller we connect motors to that executes our robot code  
+**Falon 500** - The motors that we use. They have a built in Talon SRX motor controller which communicates over CAN.   
+**CAN Bus** - The protocol used to transmit data throughout the robot. It uses 2 wires.  
+**NEO** - Another motor that we use. Weaker than the Falons. You need to use them with a motor controller like the **REV SparkMAX**  
+**NEO 550** - A significantly sized down version of the NEO, good for smaller applications  
 
-**NetworkTables** - A protocol between the robot and the driver computer that allows for setting variables over the network. Used for telemetry and setting other options usually. 
-**Dashboard** - The piece of software that we use to interface with NetworkTables variables on the driver's computer
-**Driver Station** - Refers either to the computer that the driver uses, or the software **FRC Driver Station**, which communicates with the RoboRIO, lets you set the operation mode, and takes in controller input, to send to the robot. 
-**Operation Mode** - Not really a term, refers to the main 3 modes. 
-**Disabled Mode** - Self-explanatory, the robot cannot move or do anything
-**Teleop Mode** - For the teleop part of the competition where a human drives the robot.
-**Auton Mode** - The part of the competition where the robot drives itself
+**NetworkTables** - A protocol between the robot and the driver computer that allows for setting variables over the network. Used for telemetry and setting other options usually.  
+**Dashboard** - The piece of software that we use to interface with NetworkTables variables on the driver's computer  
+**Driver Station** - Refers either to the computer that the driver uses, or the software **FRC Driver Station**, which communicates with the RoboRIO, lets you set the operation mode, and takes in controller input, to send to the robot.  
 
-**Odometry** - Measuring how many times each wheel has rotated to estimate our position on the field
+**Disabled Mode** - Self-explanatory, the robot cannot move or do anything  
+**Teleop Mode** - For the teleop part of the competition where a human drives the robot.  
+**Auton Mode** - The part of the competition where the robot drives itself  
 
-**Command Based** - A framework for writing robot code that primarily involves commands and subsystems
-**Subsystem** - In command based, a section of the robot that handles a function, for example, the drivetrain, or the shooter. 
-**Command** - In command based, a certain command, or task, that the robot is programmed to do. For instance, ArcadeDrive, or MoveToBall would be decent command names. 
+**Odometry** - Measuring how many times each wheel has rotated to estimate our position on the field  
+
+**Command Based** - A framework for writing robot code that primarily involves commands and subsystems  
+**Subsystem** - In command based, a section of the robot that handles a function, for example, the drivetrain, or the shooter.   
+**Command** - In command based, a certain command, or task, that the robot is programmed to do. For instance, ArcadeDrive, or MoveToBall would be decent command names.  
 
 You may also want to refer to https://docs.wpilib.org/en/stable/docs/software/frc-glossary.html
 
