@@ -1,4 +1,19 @@
-# Getting Started
+# Getting Started - Code team
+### Installations The Quick Guide
+ 
+Here's the condensed version: 
+
+**1. Install Visual Studio Code**
+
+     a. Open VSC, click extensions button on the left sidebat, install the extensions below
+     
+        b. Install the following extensions: "WPILib Offical" , the "GitLens SuperCharge", and "Extension Pack for Java" extensions in VSCode's
+	
+**2. Install Git for [Windows](https://git-scm.com/download/win) -> set the default editor in the installer version to VSC**
+
+**3. Install the [FRC Game Tools](https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html)**
+
+**4. Install the 64x [JDK](https://www.oracle.com/java/technologies/downloads/#jdk19-windows)**
 
 ### Vocab
 **FRC** - FIRST Robotics Competition, the one we participate in  
@@ -23,35 +38,27 @@
 **Subsystem** - In command based, a section of the robot that handles a function, for example, the drivetrain, or the shooter.   
 **Command** - In command based, a certain command, or task, that the robot is programmed to do. For instance, ArcadeDrive, or MoveToBall would be decent command names.  
 
-You may also want to refer to https://docs.wpilib.org/en/stable/docs/software/frc-glossary.html
+**VSC, VSCode, Visual Studio Code** - all have the same meaning and refer to the app Visual Studio Code
 
-### Installing tools
+ ### Additional Info
+ 
+ **Documention References[WPILIB]** - Glossary https://docs.wpilib.org/en/stable/docs/software/frc-glossary.html, Documentation https://docs.wpilib.org/en/stable/index.html. 
+ 
+**git** is what is called a source control system, meaning it manages source code, which it is very good at, allowing you to track each change you make. It's essentially necessary when working on any project with more than one person, and is used everywhere. While it can be very advanced to use if you are not familiar with it, the basics aren't hard.
 
-##### Quick Guide
-Here's the condensed version:
-1. Install Visual Studio Code
-2. Install the [WPILib](https://marketplace.visualstudio.com/items?itemName=wpilibsuite.vscode-wpilib), [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens), and [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) extensions in VSCode
-3. Install Git for Windows, set the default editor in the installer to VSC
-4. Install the FRC Game Tools
-5. Install the JDK
-
-You will preferably need a Windows installation, but it is possible to mostly get by with Linux (no official driverstation support)
-
-To begin with, we'll need to install a few tools. The first tool will be [Visual Studio Code](https://code.visualstudio.com/). It's the program that we use to write our code. Once you have installed it, open it, and click on the extensions button on the left bar, and install [the WPILib extension](https://marketplace.visualstudio.com/items?itemName=wpilibsuite.vscode-wpilib) and the [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack). 
-
-**WPILIb** is the library that teams use to write code with the RoboRio and interface with everything on it. While it supports C++ and Java, we use Java.  You can find documentation for WPILib at https://docs.wpilib.org/en/stable/index.html. 
-
-Next, you will need to install git, which you can find [here](https://git-scm.com/download/win).
-
-**git** is what is called a source control system, meaning it manages source code, which it is very good at, allowing you to track each change you make. It's essentially necessary when working on any project with more than one person, and is used everywhere. While it can be very advanced to use if you are not familiar with it, the basics aren't hard. **GitHub** is a website that you can publish git repositories to. It's not affiliated with git, and there are other alternatives, such as GitLab. 
+**GitHub** is a website that you can publish git repositories to. It's not affiliated with git, and there are other alternatives, such as GitLab. 
 
 Back from that tangent, the defaults for git, are fine, but you may want to switch the default text editor to Visual Studio Code instead of vim, which is known for being hard to exit when you don't know how to use it. Git uses the text editor primarily for resolving something called a merge conflict, which is when your code conflicts with somebody elses, and you're trying to merge the 2 codebases. 
 
-You may also want to install the [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) extension in Visual Studio Code, which lets you use git graphically without having to do any command line commands, as git is mainly interfaced through the command line (which you should learn the basic features of, sometime!). VSC already has some Git integration, but GitLens gives it far more features. 
+**JDK** You might already have Java JRE however we need Java JDK for the robot.
 
-You also will need to install the Java JDK. You may already have the Java JRE installed, but we need the JDK as we wish to develop with Java. Go to https://www.oracle.com/java/technologies/downloads/#jdk19-windows, and download the x64 installer. Installation is self-explanatory
+**FRC Game Tools**, these are for Widnows only, and contain the Driver Station (used to operate the robot) and some other important tools. You can find FRC Game Tools [here](https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html) and you may need to sign up for an NI account once you have installed it. If it asks for a license for something, just close the window, we don't need it. 
 
-And lastly but not least, you'll want to install the FRC Game Tools. These are Widnows only, and contain the Driver Station (used to operate the robot) and some other important tools. You can find them [here](https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html) and you may need to sign up for an NI account once you have installed it. If it asks for a license for something, just close the window, we don't need it. 
+**[The Gitlens extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)** in Visual Studio Code, lets you use git graphically without having to do any command line commands, as git is mainly interfaced through the command line (which you should learn the basic features of, sometime!). VSC already has some Git integration, but GitLens gives it far more features. 
+
+**[WPILib Offical](https://marketplace.visualstudio.com/items?itemName=wpilibsuite.vscode-wpilib)** This extension provides the WPILib support for FRC teams in VS Code. For documentation on how to program FRC robots using the WPILib libraries. Note that Java is what we will be writting in.
+
+**[Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)** Extension Pack for Java is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.
 
 Once you've installed all this, you're finally ready to start working!
 
